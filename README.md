@@ -1,4 +1,16 @@
-John's site.
+# John's site.
+
+## TODO
+
+- Gatsby Config
+- Add to header
+- Add to footer
+- Upload relevant images
+- Global.js for styled-components
+- Add media queries for styled-components
+- Add staging branch
+- Gatsby Manifest
+- Markdown or maybe MDX
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
