@@ -2,12 +2,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const FooterMain = () => (
-  <footer>
+const FooterMain = ({className}) => (
+  <footer className={className}>
     This is the main footer.
   </footer>
 );
 
-export default styleMedia(FooterMain)`
-
+export default styled(FooterMain)`
+  background-color: dodgerblue;
 `;
