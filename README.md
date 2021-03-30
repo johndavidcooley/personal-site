@@ -4,9 +4,24 @@
 
 ## TODO
 
-- Gatsby Config
 - Add to header
 - Add to footer
 - Upload relevant images
-- Gatsby Manifest
-- Markdown or maybe MDX
+- Static JS files
+
+-Pages
+  -Home
+  -About
+  -Resume
+  -Projects
+  -Freelancing
+  -MyStory
+
+-Components
+  - AboutDeveloper
+  - AboutPersonal
+  - TwentyQuestionsDeveloper
+  - TwentyQuestionsPersonal
+
+-Files
+  -Resume PDF
