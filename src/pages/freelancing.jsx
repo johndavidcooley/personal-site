@@ -15,6 +15,6 @@ const AboutPage = ({className}) => (
   </Layout>
 )
 
-export default styled(AboutPage)`
+export default styled(Freelancing)`
 
 `;
