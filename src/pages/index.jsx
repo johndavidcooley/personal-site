@@ -25,6 +25,4 @@ const IndexPage = ({className}) => (
 
 export default styled(IndexPage)`
   height: 100vh;
-  /* background: rgb(55,64,117); */
-  /* background: linear-gradient(180deg, rgba(55,64,117,1) 0%, rgba(217,197,166,1) 100%); */
 `;

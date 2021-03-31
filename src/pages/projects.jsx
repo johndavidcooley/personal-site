@@ -8,7 +8,7 @@ import SEO from '../components/seo';
 
 const Projects = ({className}) => (
   <Layout>
-    <SEO title="TODO: CHANGE THIS" />
+    <SEO title="Projects" />
     <div className={className}>
       Projects
     </div>

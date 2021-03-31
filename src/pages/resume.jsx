@@ -8,7 +8,7 @@ import SEO from '../components/seo';
 
 const Resume = ({className}) => (
   <Layout>
-    <SEO title="TODO: CHANGE THIS" />
+    <SEO title="Resume" />
     <div className={className}>
       Resume
     </div>

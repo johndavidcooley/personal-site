@@ -3,6 +3,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
+// Style
+import { above } from '../style/design-system';
+
 const NavMain = ({className}) => {
 
   return (
@@ -16,11 +19,15 @@ const NavMain = ({className}) => {
 };
 
 export default styled(NavMain)`
+  display: none;
+  ${above.sm`
+    display: block;
+  `}
   a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
-    &:;ast-child {
+    &:last-child {
       margin-right: 0;
     }
   }

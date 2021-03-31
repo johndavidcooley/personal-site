@@ -5,10 +5,12 @@ import styled from 'styled-components';
 
 // Components
 import NavMain from './NavMain';
+import NavMobile from './NavMobile';
 
 const HeaderMain = ({className}) => (
   <header className={className}>
     <Link to="/">John David Cooley</Link>
+    <NavMobile />
     <NavMain />
   </header>
 );
