@@ -6,15 +6,15 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const Story = ({className}) => (
+const Contact = ({className}) => (
   <Layout>
-    <SEO title="TODO: CHANGE THIS" />
+    <SEO title="Contact" />
     <div className={className}>
-      About
+      Contact me.
     </div>
   </Layout>
 )
 
-export default styled(Story)`
+export default styled(Contact)`
 
 `;

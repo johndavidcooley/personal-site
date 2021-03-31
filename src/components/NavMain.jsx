@@ -7,13 +7,21 @@ const NavMain = ({className}) => {
 
   return (
     <nav className={className}>
-      <Link to="#">About</Link>
-      <Link to="#">Resume</Link>
-      <Link to="#">Projects</Link>
+      <Link to="/about">About</Link>
+      <Link to="/resume">Resume</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
   )
 };
 
 export default styled(NavMain)`
-
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    &:;ast-child {
+      margin-right: 0;
+    }
+  }
 `;
