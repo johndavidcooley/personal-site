@@ -1,16 +1,20 @@
 // Node Modules
 import * as React from 'react';
-import styled from 'styled components';
+import styled from 'styled-components';
 
 // Components
+import Container from '../components/Container';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const AboutPage = ({className}) => (
+const Freelancing = ({className}) => (
   <Layout>
-    <SEO title="TODO: CHANGE THIS" />
+    <SEO title="Freelancing" />
     <div className={className}>
-      About
+      <Container>
+        <h1>Freelancing</h1>
+        <p>Coming soon.</p>
+      </Container>
     </div>
   </Layout>
 )

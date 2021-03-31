@@ -7,18 +7,17 @@ import Container from '../components/Container';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const Resume = ({className}) => (
+const Contact = ({className}) => (
   <Layout>
-    <SEO title="Resume" />
+    <SEO title="Contact" />
     <div className={className}>
       <Container>
-        <h1>Resume</h1>
-        <p>Coming soon.</p>
+        <h1>Contact me.</h1>
       </Container>
     </div>
   </Layout>
 )
 
-export default styled(Resume)`
-  height: 300vh;
+export default styled(Contact)`
+
 `;

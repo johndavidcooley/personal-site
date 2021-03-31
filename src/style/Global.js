@@ -5,10 +5,16 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
   body {
     margin: 0;
+  }
+
+  body.prevent-scroll {
+    height: 100vh;
+    overflow: hidden;
   }
 
   #gatsby-focus-wrapper {

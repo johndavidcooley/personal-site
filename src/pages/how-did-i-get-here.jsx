@@ -1,16 +1,20 @@
 // Node Modules
 import * as React from 'react';
-import styled from 'styled components';
+import styled from 'styled-components';
 
 // Components
+import Container from '../components/Container';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const Story = ({className}) => (
   <Layout>
-    <SEO title="TODO: CHANGE THIS" />
+    <SEO title="About (The Verbose Version)" />
     <div className={className}>
-      About
+      <Container>
+        <h1>More about me.</h1>
+        <p>Coming soon.</p>
+      </Container>
     </div>
   </Layout>
 )
