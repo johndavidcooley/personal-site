@@ -1,0 +1,20 @@
+export const fontSize = {
+  a: '0.5rem',
+  b: '0.625rem',
+  c: '0.75rem;',
+  d: '0.875rem',
+  e: '1rem',
+  f: '1.125rem',
+  g: '1.25rem',
+  h: '1.375rem',
+  i: '1.5rem',
+  j: '1.75rem',
+  k: '2rem',
+  l: '2.25rem',
+  m: '2.5rem',
+  n: '3rem',
+  o: '3.5rem',
+  p: '4rem',
+  q: '4.5rem',
+  r: '5rem'
+};
