@@ -1,5 +1,5 @@
 // Node Modules
-import React, { useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
@@ -10,6 +10,11 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { above } from '../style/design-system';
 
 const NavMobile = ({className}) => {
+
+  useEffect(() => {
+    const body = document.querySelector('body');
+    mobileNavOpen ? body.classList.add('prevent-scroll') : body.classList.remove('prevent-scroll');
+  });
   
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
@@ -47,17 +52,27 @@ export default styled(NavMobile)`
     }
   }
   .nav-wrapper {
+    z-index: 100;
     position: absolute;
     top: 50px;
     bottom: 0;
     left: 0;
     max-width: 0;
     width: 100%;
-    background-color: red;
+    background-color: #2b3b39;
     transition: max-width .5s ease-in-out;
     overflow: hidden;
     &.open {
       max-width: 100vw;
+    }
+  }
+  a {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    &:hover {
+      background-color: #374075;
     }
   }
 `;
